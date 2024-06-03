@@ -1,0 +1,322 @@
+.mr-30{
+    margin-right: 30px;
+}
+.mh-600{
+height: 600px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+    /* SECTION HEADER 1ST */
+#header-container{
+    margin-right: 40px;
+    padding: 0;
+}
+
+.header{
+    background-color: rgb(77 162 236);
+}
+
+#logo{
+    display: inline-block;
+    max-height: 25px;
+    max-width: 25px;
+    background-color: white;
+    padding: 40px;
+    margin-left: 80px;
+    margin-top: 0;
+    font-size: 40px; 
+    font-family: 'sans-serif', 'Times New Roman', Times, serif ;
+    color: rgb(0, 200, 255);
+} 
+ .menu{
+    color:white;
+    float: right;
+    font-size: 30px;
+    margin-right: 35px;
+    margin-top: 40px;
+}
+
+#header-content{
+    position: relative;
+    margin-top: 40px;
+    text-align: right;
+}
+
+#header-heading{
+    color: white;
+}
+
+#header-text{
+    color: white;
+    font-size: 25px;
+}
+
+.download-btn{
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 15px 20px;
+    border: 1px solid #ccc;
+    float: right;
+    margin-top: 12px;
+}
+
+.download-icon {
+   margin-left: 10px;
+}
+
+#header-phone-container{
+   overflow: hidden;
+}
+
+#header-clipped-image {
+    clip-path: inset(0 0 38%);
+    margin-left: 150px;
+  }
+
+    /* SECTION INFO 2ND */
+.info-section{
+    background-color: rgb(225, 225, 225);
+    padding-left: 80px;
+    padding-top: 40px;
+    color: gray;
+}
+
+#info-section-content{
+    line-height: 23px;
+    font-size: 15px;
+}
+
+#info-section-heading{
+    margin-top: 0px;
+}
+
+#info-text-para1{
+    max-width: 489px;
+
+}
+#info-text-para2{
+    border-left: 4px solid rgb(77 162 236);
+    padding-left: 15px;
+    max-width: 453px;
+}
+.info-email-btn{
+    color: green;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 15px 20px;
+    border: 1px solid #ccc;
+    float: left;
+    margin-top: 12px;
+    border: 1px solid green;
+}
+
+.info-email-icon {
+   margin-left: 10px;
+   color: green;
+}
+
+#info-phone-container{
+    float: right;
+ }
+ 
+ #info-clipped-image {
+     clip-path: inset(0 0 32%);
+     margin-left: 150px;
+   }
+
+   /* SECTION PHONE ASSETS 3RD */
+.phone-assets-section{
+    padding-top: 40px;
+    color: gray;
+
+}
+#phone-assets-section-content{
+    line-height: 23px;
+    font-size: 15px;
+    float: right;
+    position: absolute;
+    right: 74px;
+   }
+
+#phone-assets-text-para1{
+    max-width: 308px;
+    font-weight: bold;
+}
+
+#phone-assets-text-para2{
+    max-width: 316px;
+}
+
+.phone-assets-email-btn{
+    color: red;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    float: left;
+    margin-top: 12px;
+    border: 1px solid red;
+}
+
+.phone-assets-email-icon {
+   margin-left: 10px;
+   color: red;
+}
+
+#phone-assets-phone-container{
+    position: relative;
+    top: 213px;
+ } 
+ #phone-assets-retina-image{
+  position: absolute;
+    top: 247px;
+    z-index: 1;
+    clip-path: inset(0 0 38%);
+}
+
+#phone-assets-macbook-image{
+    position: absolute;
+    left: 107px;
+}
+#phone-assets-ipad-image{
+    left: 455px;
+    position: absolute;
+    z-index: 2;
+    top: 196px;
+    clip-path: inset(0 0 22%);
+}
+#phone-assets-iphone5-image{
+    left: 600px;
+    position: absolute;
+    z-index: 3;
+    top: 266px;
+    clip-path: inset(0 0 22%);
+}
+#phone-assets-ipad-mini-image{
+    left: 650px;
+    position: absolute;
+    z-index: 2;
+    top: 235px;
+    clip-path: inset(0 0 10%);
+}  
+
+
+/* SECTION DESCRIPTION 4TH */
+.desc-section{
+    height: 300px;
+    background-color: rgba(29, 203, 186, 0.606);
+    margin-top: 0;
+    position: relative;
+    padding-top: 50px;
+}
+
+#desc-section-content{
+    position: absolute;
+    top: 42%;
+    left: 44%;
+}
+
+#desc-section-heading{
+    margin-top: 0;
+    color: white;
+    font-weight: 600;
+}
+
+.desc-section-btn{
+    color: white;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    float: left;
+    margin-top: 12px;
+    border: 1px solid white;
+}
+
+.desc-section-icon {
+   margin-left: 10px;
+   color: white;
+}
+
+/* CONTACT SECTION 5TH */
+
+.contact-section{
+    background-color: rgb(225, 225, 225);
+    padding-left: 80px;
+    padding-top: 40px;
+    color: gray;
+    position: relative;
+}
+
+#contact-section-content-container{
+    position: absolute;
+    top: 37%;
+    left: 38%;
+}
+
+#social-link {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-links {
+    display: inline-block;
+}
+
+.social-link img {
+    display: block;
+    margin-right: 30px;
+    border: none;
+}
+
+#input-contact-section {
+    margin-top: 45px;
+    position: relative;
+}
+
+#email-input {
+    width: 144px;
+    padding: 7px;
+    margin: 10px;
+    border-radius: 5px;
+    border-style: none;
+    color: rgb(223, 222, 222);
+}
+
+.input-icon {
+    position: absolute;
+    left: 80%;
+    padding-left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: skyblue;
+    border-left: 2px solid rgb(212, 209, 209); 
+    text-decoration: none;
+}   
+
+ /* FOOTER  */
+
+ .footer-section{
+    position: relative;
+  padding: 20px;
+  text-align: center;
+ }
+
+ .footer-link , .social-links{
+    text-decoration: none;
+ }
+
+ .scroll-to-top {
+    position: absolute;
+    right: 0;
+    top: 37%;
+    rotate: 270deg;
+    text-decoration: none; 
+    margin-right: 20px;
+    color: black;
+    padding: 7px 7px 7px 5px;
+    background-color: rgb(216, 210, 210);
+    border: 1px solid rgb(216, 210, 210);
+    border-radius: 2px;
+ }
